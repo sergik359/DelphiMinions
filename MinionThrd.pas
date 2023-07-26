@@ -10,7 +10,7 @@ type
   private
     FNumberMinion: integer;
     DepositMinion: integer;
-    ÑontributionMinion: integer;
+    Ã‘ontributionMinion: integer;
   protected
     procedure Execute; override;
     procedure UpdateResults;
@@ -24,7 +24,7 @@ uses SysUtils, Dialogs, Unit1;
 
 procedure MinionThread.Execute;
 begin
-  ÑontributionMinion:= 0;
+  Ã‘ontributionMinion:= 0;
   while(Form1.FillingDC < Form1.DepositCart) do
   begin
     DepositMinion:= random(2) + 1;
@@ -39,10 +39,10 @@ begin
       if(Form1.FillingDC + DepositMinion <= Form1.DepositCart ) then
       begin
           Form1.FillingDC:= Form1.FillingDC + DepositMinion;
-          ÑontributionMinion:= ÑontributionMinion + DepositMinion;
-          Form1.Memo1.Lines.Add('Íîìåð ìèíüîíà ' + IntToStr(FNumberMinion) + ' Âêëàä: ' +
-            IntToStr(DepositMinion) + ' Îáùèé âêëàä ìèíèîíà ' + IntToStr(ÑontributionMinion));
-          Form1.Label2.Caption:= 'Êîðçèíà çàïîëíåíà íà ' + IntToStr(Form1.FillingDC);
+          Ã‘ontributionMinion:= Ã‘ontributionMinion + DepositMinion;
+          Form1.Memo1.Lines.Add('ÐÐ¾Ð¼ÐµÑ€ Ð¼Ð¸Ð½ÑŒÐ¾Ð½Ð° ' + IntToStr(FNumberMinion) + ' Ð’ÐºÐ»Ð°Ð´: ' +
+            IntToStr(DepositMinion) + ' ÐžÐ±Ñ‰Ð¸Ð¹ Ð²ÐºÐ»Ð°Ð´ Ð¼Ð¸Ð½Ð¸Ð¾Ð½Ð° ' + IntToStr(Ã‘ontributionMinion));
+          Form1.Label2.Caption:= 'ÐšÐ¾Ñ€Ð·Ð¸Ð½Ð° Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð° Ð½Ð° ' + IntToStr(Form1.FillingDC);
           Form1.ProgressBar1.Position:= Form1.FillingDC;
       end;
       Sleep(100);
