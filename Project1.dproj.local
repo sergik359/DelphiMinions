@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.535,C:\Users\serg\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\serg\Documents\Embarcadero\Studio\Projects\MinionThrd.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.431,C:\Users\serg\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\serg\Desktop\delphi git\MinionDeposit\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.766,C:\Users\serg\Documents\Embarcadero\Studio\Projects\MinionThrd.pas=C:\Users\serg\Desktop\delphi git\MinionDeposit\MinionThrd.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.608,=C:\Users\serg\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.068,=C:\Users\serg\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.431,C:\Users\serg\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\serg\Desktop\delphi git\MinionDeposit\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.343,C:\Users\serg\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\serg\Desktop\delphi git\MinionDeposit\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.214,C:\Users\serg\Desktop\delphi git\MinionDeposit\Project1.dproj=C:\Users\serg\Desktop\delphi git\MinionDeposit\Project1.dproj</Transaction>
+    <Transaction>2023.07.26 12:29:41.069,C:\Users\serg\Desktop\delphi git\MinionDeposit\Project1.dproj=C:\Users\serg\Desktop\delphi git\MinionDeposit\Project1.dproj</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="MinionThrd.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
