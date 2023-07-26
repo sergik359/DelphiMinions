@@ -10,7 +10,7 @@ type
   private
     FNumberMinion: integer;
     DepositMinion: integer;
-    ÑontributionMinion: integer;
+    ContributionMinion: integer;
   protected
     procedure Execute; override;
     procedure UpdateResults;
@@ -24,7 +24,7 @@ uses SysUtils, Dialogs, Unit1;
 
 procedure MinionThread.Execute;
 begin
-  ÑontributionMinion:= 0;
+  ContributionMinion:= 0;
   while(Form1.FillingDC < Form1.DepositCart) do
   begin
     DepositMinion:= random(2) + 1;
@@ -39,9 +39,9 @@ begin
       if(Form1.FillingDC + DepositMinion <= Form1.DepositCart ) then
       begin
           Form1.FillingDC:= Form1.FillingDC + DepositMinion;
-          ÑontributionMinion:= ÑontributionMinion + DepositMinion;
+          ContributionMinion:= ContributionMinion + DepositMinion;
           Form1.Memo1.Lines.Add('Номер миньона ' + IntToStr(FNumberMinion) + ' Вклад: ' +
-            IntToStr(DepositMinion) + ' Общий вклад миниона ' + IntToStr(ÑontributionMinion));
+            IntToStr(DepositMinion) + ' Общий вклад миниона ' + IntToStr(ContributionMinion));
           Form1.Label2.Caption:= 'Корзина заполнена на ' + IntToStr(Form1.FillingDC);
           Form1.ProgressBar1.Position:= Form1.FillingDC;
       end;
